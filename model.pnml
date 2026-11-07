@@ -1,0 +1,15 @@
+<pnml>
+  <net id="net1" type="http://pnml.org">
+    <page id="page1">
+      <place id="P0"/>
+      <place id="P1"/>
+      <transition id="T0"/>
+      <arc id="a1" source="P0" target="T0">
+        <inscription><text>1</text></inscription>
+      </arc>
+      <arc id="a2" source="T0" target="P1">
+        <inscription><text>2</text></inscription>
+      </arc>
+    </page>
+  </net>
+</pnml>
